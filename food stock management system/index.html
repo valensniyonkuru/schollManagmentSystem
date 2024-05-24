@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Processed Food Stock Management System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Processed Food Stock Management System</h1>
+    <div class="actions">
+      <!-- Manager/Admin Actions -->
+      <div id="manager-actions">
+        <h2>Manager/Admin Actions</h2>
+        <button id="insert-item-btn">Insert Item</button>
+        <button id="view-sales-report-btn">View Sales Report</button>
+        <button id="view-stock-btn">View Stock</button>
+      </div>
+      <!-- Staff Actions -->
+      <div id="staff-actions">
+        <h2>Staff Actions</h2>
+        <input type="text" id="search-input" placeholder="Search...">
+        <button id="sell-item-btn">Sell Item</button>
+        <div id="receipt"></div>
+        <button id="generate-receipt-btn">Generate Receipt</button>
+      </div>
+    </div>
+    <div id="output"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
